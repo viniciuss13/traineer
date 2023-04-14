@@ -1,0 +1,18 @@
+.centro{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+hr{
+    height: 1px;
+    background-color: white;
+}
+
+.preta{
+    border-color: black;
+}
+
+.branca{
+    border-color: white;
+}

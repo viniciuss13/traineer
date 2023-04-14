@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+
+h1{
+
+    color: pink;
+    
+}
+
+/* ajdua a saber onde estou incluindo */
+.home_banner_titulo{
+    
+    color: pink;
+}
+
+.contato_forms_titulo{
+
+    color: green;
+}
+
+#titulo{
+
+    color: aquamarine;
+}
