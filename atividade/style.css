@@ -2,8 +2,18 @@
 display: flex;
 justify-content: center;
 align-items: center;
+
 }
 
+
+
+body{
+
+    background-color: #679267;
+}
+
+/* -------------------------------- */
+/* Cor de linhas hr  */
 hr{
     height: 1px;
     background-color: white;
@@ -16,3 +26,16 @@ hr{
 .branca{
     border-color: white;
 }
+/* ---------------------------- */
+
+/* ---------------- */
+/* formato img */
+
+.curi_img_color{
+
+    height: "350px"; 
+    width: "500px";
+}
+
+
+/* ------------------- */
