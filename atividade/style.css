@@ -1,28 +1,77 @@
-.centro{
-display: flex;
-justify-content: center;
-align-items: center;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+:root {
+
+    --ps: 10px;
+
+
+}
+
+.marg{
+    padding-left: var(--ps);
+
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h {
+    background-color: #23252b;
+}
+
+#menu-h ul {
+
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #dadada;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(13, 79, 201);
 }
 
 
 
-body{
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    background-color: #679267;
+}
+
+body {
+    color: white;
+    background-color: #000000;
+
 }
 
 /* -------------------------------- */
 /* Cor de linhas hr  */
-hr{
+hr {
     height: 1px;
     background-color: white;
 }
 
-.preta{
+.preta {
     border-color: black;
 }
 
-.branca{
+.branca {
     border-color: white;
 }
