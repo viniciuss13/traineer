@@ -16,3 +16,45 @@ hr{
 .branca{
     border-color: white;
 }
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+:root{
+
+    --ps:300px;
+
+
+}
+
+body{
+
+    background-color: whitesmoke
+}
+
+.navbar{
+    background-color: #679267;
+    color: black;
+    padding-left: var(--ps);
+    padding-right: var(--ps);
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+
+}
+.navbar_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+.navbar_link{
+
+    text-decoration: none;
+    color: black;
+}
+/* .banner_back_color{
