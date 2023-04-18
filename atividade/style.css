@@ -3,12 +3,17 @@
 :root {
 
     --ps: 10px;
-
-
+    --tab: 50px;
+    --color-third:#dadada;
 }
 
 .marg{
     padding-left: var(--ps);
+
+}
+
+.table_marg{
+    padding-left: var(--tab);
 
 }
 
@@ -57,7 +62,7 @@
 
 body {
     color: white;
-    background-color: #000000;
+    background-color: #101010;
 
 }
 
