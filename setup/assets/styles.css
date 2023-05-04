@@ -1,0 +1,102 @@
+.home_banner{
+
+    margin-top: var(--nav-height);
+    background-color: black;
+    padding-top: 150px;
+    padding-bottom: 250px;
+
+
+}
+
+.home_banner_box_cont{
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+width: 60%;
+gap: 36px;
+
+}
+.home_banner_subtitle{
+    color:var(--yellow-500);
+    font-size: 2.2rem;
+    font-weight: 400;
+    
+}
+
+.home_banner_title{
+
+    color: var(--white-100);
+
+    font-size: 6.0rem;
+}
+
+.home_banner_cont_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    gap: 24px;
+    width: 100%;
+    margin-top: 90px;
+}
+
+.home_banner_button{
+
+cursor: pointer;  
+ border: none;
+ background-color: aqua;
+ font-size: 1.8rem;
+ font-weight: 400;
+    /* igualando */
+    width: 100%;
+    height: 100%;
+    background-color: var(--yellow-500);
+    padding-left: var(--pading-but);
+    padding-right: var(--pading-but);
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    transition: 0.2s ease; 
+
+}
+
+
+.home_banner_button:hover{
+
+    color: var(--green-400);
+    transform: scale(1.03);
+}  
+    
+.home_banner_link{
+    color: black;
+    cursor: pointer;  
+    font-size: 1.8rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* igualando */
+
+    width: 100%;
+    height: 100%;
+    background-color: var(--yellow-500);
+    padding-left: var(--pading-but);
+    padding-right: var(--pading-but);
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    transition: 0.2s ease; 
+
+    
+}
+
+
+
+.home_banner_link:hover{
+
+    color: var(--green-400);
+    transform: scale(1.03);
+}  
+    

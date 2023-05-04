@@ -1,0 +1,59 @@
+Estruturar as pastas (V)
+Documentos padroes (V)
+importações (V)
+Variaveis e componentização
+Display flex{
+flex-direction
+justify-content
+align-center
+}
+position{
+position:fixed
+top:
+left:
+} 
+Gap
+
+
+
+
+poss
+
+marginleft
+
+50%
+
+gap
+
+
+
+
+
+
+
+
+
+
+
+Case
+
+Pedro Pedrinha
+
+Construção
+Ornamentação
+Pedra de amolar
+
+construcao
+ornamentacao
+ferreiro
+
+1 home
+3 paginas
+
+outros tipos
+
+
+
+
+
+

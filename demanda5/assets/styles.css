@@ -1,0 +1,173 @@
+.home_banner {
+  background-color: var(--white-100);
+}
+
+.banner_img {
+  width: 100%;
+  height: auto;
+  margin-top: 180px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 780px) {
+  .banner_img {
+    margin-top: 120px;
+  }
+}
+
+.baner_img_border {
+  border: solid 1px var(--black-100);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.home_banner_box_cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 95%;
+  gap: 24px;
+  margin-bottom: 36px;
+}
+
+.home_banner_title {
+  color: var(--black-100);
+  font-size: 2rem;
+  font-display: medium;
+  font-weight: 500;
+}
+
+.home_banner_title_progress {
+  color: var(--red-200);
+  font-size: 2rem;
+  font-display: medium;
+  font-weight: 700;
+}
+
+.home_banner_text {
+  color: var(--black-100);
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.banner_bugs_img_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_bugs_img {
+  width: 840px;
+  height: auto;
+  padding-bottom: 90px;
+  padding-top: 45px;
+}
+@media (max-width: 999px) {
+  .banner_bugs_img {
+    width: 90%;
+  }
+}
+@media (max-width: 480px) {
+  .banner_bugs_img {
+    width: 100%;
+  }
+}
+
+.home_banner_text_bugs {
+  color: var(--black-100);
+  font-size: 1.5rem;
+  font-weight: 400;
+  border-bottom: solid 2px var(--red-200);
+  padding-bottom: 30px;
+}
+
+.homebanner_silksong {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.home_banner_silksong_box_cont {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  gap: 24px;
+}
+
+@media (max-width: 780px) {
+  .home_banner_silksong_box_cont {
+    width: 100%;
+  }
+}
+.home_banner_anyversary {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.home_banner_anyversary_box_cont {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+@media (max-width: 780px) {
+  .home_banner_anyversary_box_cont {
+    padding-top: 60px;
+    width: 100%;
+  }
+}
+
+.home_banner_title_silksong {
+  color: var(--red-200);
+  font-size: 2rem;
+  font-display: medium;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.home_banner_title_anyversary {
+  color: var(--red-200);
+  font-size: 2rem;
+  font-display: medium;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.home_banner_text_silksong_anyversary {
+  color: var(--black-100);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.home_banner_date {
+  color: var(--black-100);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.home_banner_read_more {
+  color: var(--red-200);
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.home_banner_read_more:hover {
+  color: var(--red-500);
+  transform: scale(1.03);
+}
