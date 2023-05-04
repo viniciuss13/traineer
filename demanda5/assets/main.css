@@ -91,6 +91,25 @@ html {
 
 }
 
+@media (max-width: 800px) {
+  .navbar_img {
+    height: 50px;
+  }
+  
+  .navbar_nav {
+    width: 45%;
+  }
+  
+  .navbar_link {
+    color: var(--white-100);
+    font-size: 1.4rem;
+    transition: 0.2 ease;
+    font-weight: 300;
+    cursor: pointer;
+  }
+}
+
+
 @media (max-width: 480px) {
   .navbar_img {
     height: 25px;
