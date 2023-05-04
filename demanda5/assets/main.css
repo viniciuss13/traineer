@@ -93,12 +93,15 @@ html {
 
 @media (max-width: 480px) {
   .navbar_img {
-    height: 35px;
+    height: 25px;
+  
+  }
+
+  .navbar_nav {
+    width: auto;
+
   }
   
-  .navbar_nav {
-    width: 80%;
-  }
   
   .navbar_link {
     color: var(--white-100);
@@ -106,6 +109,10 @@ html {
     transition: 0.2 ease;
     font-weight: 300;
     cursor: pointer;
+    padding-top: 25px;
+    padding-bottom: 22px;
+    align-items: flex-start;
+    width: auto;
   }
 }
 
@@ -164,3 +171,4 @@ html {
     
   }
 }
+
